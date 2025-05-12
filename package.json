@@ -1,0 +1,29 @@
+{
+  "name": "landing1",
+  "version": "1.0.0",
+  "description": "landing for portf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ann-matt/landing1.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack",
+    "babel"
+  ],
+  "author": "Ann Matt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ann-matt/landing1/issues"
+  },
+  "homepage": "https://github.com/ann-matt/landing1#readme",
+  "devDependencies": {
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
+}
