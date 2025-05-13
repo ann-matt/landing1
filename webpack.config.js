@@ -30,11 +30,14 @@ module.exports = {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
             },
+            
             {
-                test:/\.png$/,
-                use: ['file-loader']
+                test: /.(png|jpe?g|webp|svg)$/i,
+                type: 'asset/resource',
+                generator: {
+                filename: 'img/[name][ext]'
+            }
             }
         ]
     }
 }
-
