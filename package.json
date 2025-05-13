@@ -4,7 +4,8 @@
   "description": "landing for portf",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx webpack --mode development",
+    "build": "npx webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   },
   "homepage": "https://github.com/ann-matt/landing1#readme",
   "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
     "webpack": "^5.99.8",
     "webpack-cli": "^6.0.1"
   }
