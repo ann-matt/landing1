@@ -5,3 +5,10 @@
 h1 {
     color: pink;
 }
+.logo {
+    background-image: url('./img/comp10.png');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
